@@ -13,7 +13,7 @@ public class Main {
 		valorTotalC = valorTotalE = valorTotalV = 0;
 		
 		int quantidadeProdutos = 0;
-		while (quantidadeProdutos < 3) {
+		while (quantidadeProdutos < 15) {
 			System.out.print("\nCategoria do produto a ser adicionado: ");
 			char categoria = Character.toUpperCase( sc.next().charAt(0) );
 			
